@@ -1,0 +1,19 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    search:
+        engine: fuse
+    toc:
+      before: |
+        <li><a href="./">AphA professional registration</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
+    download: ["html"]
+bookdown::html_book:
+  includes:
+    in_header: preamble.tex
+  citation_package: natbib
+  keep_tex: no
+bookdown::epub_book: default
+bookdown::bs4_book: default
