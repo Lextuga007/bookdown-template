@@ -5,10 +5,10 @@ bookdown::gitbook:
         engine: fuse
     toc:
       before: |
-        <li><a href="./">AphA professional registration</a></li>
+        <li><a href="./">Bookdown Template</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
+    edit: https://github.com/Lextuga007/bookdown-template%s
     download: ["html"]
 bookdown::html_book:
   includes:

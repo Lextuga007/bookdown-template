@@ -1,5 +1,5 @@
 --- 
-title: "AphA Professional Registration"
+title: "Bookdown template"
 author: "Zoë Turner"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,44 +9,9 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is my evidence for AphA professional registration. I'm being 'radically open' about this by publishing it in bookdown through GitHub and publish on Netlify."
+description: "This is a bookdown template."
 ---
 
 # Introductory notes
 
-The application I'll be first attempting is Senior Practitioner. 
-
-I plan to outline some of the projects/analysis I've worked on which include:
-
-* Joining data across various clinical and non-clinical datasets to build up a complete dataset on patients who have died
-* Venn diagrams to understand the SMI (Serious Mental Illness - a register held by GPs) and CPAs (Care Pathway Approach - "for people in England with severe or complex mental health problems and those who may need services from a number of agencies to support them" [^1] kept by the Trust)
-* Smoking prevalence of Mental Health patients (both community and inpatients) compared to the ONS (Office of National Statistics) prevalence figures
-* Improving and delivering the NHS-R Community Introduction to R and R Studio workshop 
-* Statistical analysis of surveys collected in the local Pride events
-* Mainining an R package to access the SQL server data in a consistent and tidy way
-
-[^1]: Mind charities explanation of [What is the Care Programme Approach?]((England)https://www.mind.org.uk/information-support/legal-rights/leaving-hospital/care-planning/#:~:text=The%20Care%20Programme%20Approach%20(CPA)%20is%20for%20people%20in%20England,of%20agencies%20to%20support%20them.)
-
-## Warnings
-
-I've set this up by using the bookdown package and the template example from [RStudio](https://github.com/rstudio/bookdown-demo) so for a bit it will look slightly odd as it will be my words followed by the template. 
-
-I had to change the _output.yaml file to replace `bookdown::pdf_book:` with `bookdown::html_book:` and remove references to `latex` because of restrictions on my work laptop. I don't want to publish pdfs anyway because it's not always accessible to screen readers so I don't really need that functionality.
-
-## Licence
-
-This is licenced under CCO and I'm choosing to work openly on my registration as this is a collection of my knowledge and work that I feel can only benefit others if it's shared. Most of it should already be on GitHub and if it's not, it should be!
-
-## Motivations
-
-If I am successful in being accredited then I always wanted to share that learning so why not start early? And if I fail or get corrections, then we can learn from that too.
-
-## Information Governance
-
-Any data used in this registration will be generated "synthetic data" and the code to generate it will be available. 
-
-I may change some code from the original to remove references to data structures that I do not own and have not had confirmed (yet) can be shared openly. 
-
-## Corrections
-
-If you spot any mistakes, please do let me know through [issues](https://github.com/Lextuga007/professional-registration/issues) or [email](mailto:zoe.turner2@nottshc.nhs.uk). 
+This is a bookdown template for publishing by html either to GitHub.
