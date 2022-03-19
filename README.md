@@ -36,3 +36,17 @@ Or use the Build Book button that appears with the Build tab (where the tabs rea
 # GitHub pages
 
 To publish through GitHub go to Settings/Pages and change Source to `main` and `/docs`. It will take a few minutes to load the pages.
+
+# GitHub Action
+
+The file that creates the action can be found in the folder `.github\workflows` and works with a branch that is created using the script (in the Terminal):
+
+```bash
+git checkout --orphan gh-pages
+git rm -rf .
+git commit --allow-empty -m 'Initial gh-pages commit'
+git push origin gh-pages
+git checkout main
+```
+
+[Source](https://orchid00.github.io/actions_sandbox/websites-using-pkgdown-bookdown-and-blogdown.html) via Matt Dray's blog on [GitHub Actions and packages](https://www.rostrum.blog/2020/08/09/ghactions-pkgs/).

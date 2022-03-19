@@ -1,7 +1,6 @@
 # Introduction {#intro}
 
-#### This is from the {bookdown} template and I'll be leaving it for the moment as it has useful examples.
-
+[Source](https://github.com/rstudio/bookdown-demo)
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
