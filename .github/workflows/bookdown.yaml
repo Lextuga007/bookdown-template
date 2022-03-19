@@ -22,10 +22,8 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v1
 
-      - name: Install dependencies
-        run: |
-          install.packages("bookdown")
-        shell: Rscript {0}
+      - name: Install rmarkdown
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
         
       - name: Cache bookdown results
         uses: actions/cache@v2
@@ -35,7 +33,7 @@ jobs:
           restore-keys: bookdown-
 
       - name: Build site
-        run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+        run: Rscript -e 'bookdown::render_book("index.Rmd")'
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
