@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          install.packages("bookdwon")
+          install.packages("bookdown")
         shell: Rscript {0}
         
       - name: Cache bookdown results
