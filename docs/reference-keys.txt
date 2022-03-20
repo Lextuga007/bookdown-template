@@ -1,5 +1,0 @@
-fig:nice-fig
-tab:nice-tab
-introductory-notes
-intro
-this-is-from-the-bookdown-template-and-ill-be-leaving-it-for-the-moment-as-it-has-useful-examples.

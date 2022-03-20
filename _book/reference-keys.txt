@@ -1,0 +1,5 @@
+fig:nice-fig
+tab:nice-tab
+introductory-notes
+intro
+methods
