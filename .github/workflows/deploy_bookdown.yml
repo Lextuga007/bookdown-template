@@ -36,6 +36,11 @@ jobs:
        uses: actions/checkout@main
      - name: Download artifact
        uses: actions/download-artifact@v1.0.0
+       with:
+         # Artifact name
+         name: _book # optional
+         # Destination path
+         path: _book # optional
      - name: Deploy to GitHub Pages
        uses: Cecilapp/GitHub-Pages-deploy@v3
        env:
