@@ -35,7 +35,7 @@ Or use the Build Book button that appears with the Build tab (where the tabs rea
 
 # GitHub pages
 
-To publish through GitHub go to Settings/Pages and change Source to `main` and `/docs`. It will take a few minutes to load the pages.
+To publish through GitHub go to Settings/Pages and change Source to `main` and `/root`. It will take a few minutes to load the pages.
 
 # GitHub Action
 
